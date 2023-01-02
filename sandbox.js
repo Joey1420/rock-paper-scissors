@@ -4,8 +4,8 @@ function computerChoice(max){
     return Math.floor(Math.random(0) * 3);
 }
 // if else functions for game
-function chooseWinner{
+function chooseWinner() {
 if (computerChoice === playerChoice){
-    return = "Draw!";
+    return "Draw!";
   }
 }
