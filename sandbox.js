@@ -6,6 +6,6 @@ function computerChoice(max){
 // if else functions for game
 function chooseWinner() {
 if (computerChoice === playerChoice){
-    return "Draw!";
+    return console.log ("Draw!");
   }
 }
