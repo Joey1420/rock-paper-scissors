@@ -1,3 +1,5 @@
+const userChoice = prompt ("rock, paper, or scissors?");
+
 // computer choices
 function computerChoice(max){
     const choice = ["rock", "paper", "scissors"];
