@@ -1,3 +1,4 @@
+// user choice
 const userChoice = prompt ("rock, paper, or scissors?");
 
 // computer choices
