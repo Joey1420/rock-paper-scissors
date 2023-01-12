@@ -1,5 +1,5 @@
 // user choice
-const userChoice = prompt ("rock, paper, or scissors?");
+const userChoice = prompt ("Would you like rock, paper, or scissors?");
 
 // computer choices
 function computerChoice(max){
