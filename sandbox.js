@@ -15,7 +15,7 @@ if (computerChoice === playerChoice){
 
 if (playerChoice === "rock"){
     if (computerChoice === "paper"){
-    return console.log ("You lose! Paper beats rock");
+    alert console.log ("You lose! Paper beats rock");
     } else { 
     console.log ("You win!");
   }
@@ -23,7 +23,7 @@ if (playerChoice === "rock"){
 
 if (playerChoice === "scissors"){
   if (computerChoice === "rock"){
-    return console.log ("You lose! Rock beats scissors");
+    alert console.log ("You lose! Rock beats scissors");
   } else {
     console.log("You win!");
   }
@@ -31,7 +31,7 @@ if (playerChoice === "scissors"){
 
 if (playerChoice === "paper"){
   if (computerChoice === "scissors"){
-    return console.log ("You lose! Scissors beats paper");
+    alert console.log ("You lose! Scissors beats paper");
   } else {
     console.log("You win!");
   }
