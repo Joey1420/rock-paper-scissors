@@ -9,7 +9,7 @@ function computerChoice(max){
 // if else functions for game
 function chooseWinner() {
 if (computerChoice === playerChoice){
-    return console.log ("Draw!"); 
+    alert console.log ("Draw!"); 
   }
 }
 
