@@ -9,13 +9,13 @@ function computerChoice(max){
 // if else functions for game
 function chooseWinner() {
 if (computerChoice === playerChoice){
-    alert console.log ("Draw!"); 
+    return console.log ("Draw!"); 
   }
 }
 
 if (playerChoice === "rock"){
     if (computerChoice === "paper"){
-    alert console.log ("You lose! Paper beats rock");
+    return console.log ("You lose! Paper beats rock");
     } else { 
     console.log ("You win!");
   }
@@ -23,7 +23,7 @@ if (playerChoice === "rock"){
 
 if (playerChoice === "scissors"){
   if (computerChoice === "rock"){
-    alert console.log ("You lose! Rock beats scissors");
+    return console.log ("You lose! Rock beats scissors");
   } else {
     console.log("You win!");
   }
@@ -31,8 +31,12 @@ if (playerChoice === "scissors"){
 
 if (playerChoice === "paper"){
   if (computerChoice === "scissors"){
-    alert console.log ("You lose! Scissors beats paper");
+    return console.log ("You lose! Scissors beats paper");
   } else {
     console.log("You win!");
   }
+}
+
+for (let round = 1, round <= 5; round++) {
+  console.log("Starting round " + round);
 }
